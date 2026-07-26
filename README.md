@@ -29,6 +29,32 @@ The solution integrates **SQL**, **BigQuery**, **Power Query**, **DAX**, **Excel
 The dashboard enables business users to monitor sales performance, evaluate profitability, compare regional contributions, and identify top-performing products using modern executive-style visualizations.
 
 ---
+## 🏗️ Project Architecture
+
+```text
+                Raw Data (CSV)
+                       │
+                       ▼
+        Python Data Generation & Processing
+                       │
+                       ▼
+         SQL Cleaning & Transformation (ETL)
+                       │
+                       ▼
+      Star Schema Data Modeling (Fact & Dimensions)
+                       │
+                       ▼
+         BigQuery Data Warehouse
+                       │
+                       ▼
+         Power BI Data Modeling & DAX
+                       │
+                       ▼
+     Interactive Executive Dashboard
+                       │
+                       ▼
+          Business Insights & Decision Making
+```
 
 # 📊 Dashboard Preview
 
