@@ -1,5 +1,6 @@
-<div align="center">
 ![End-to-End BI](https://img.shields.io/badge/Project-End--to--End%20Business%20Intelligence-blue?style=for-the-badge)
+<div align="center">
+
   
 # 📊 Enterprise Sales Analytics Dashboard
 
