@@ -1,0 +1,301 @@
+customer_key,customer_name,industry,segment,region_key,signup_year
+1,Cobalt Corp,Retail,SMB,9,2023
+2,Apex Solutions,Education,Enterprise,5,2022
+3,Pioneer Corp,Technology,SMB,3,2025
+4,Meridian Corp,Technology,SMB,3,2023
+5,Nova Industries,Education,SMB,10,2023
+6,Anchor Corp,Hospitality,Mid-Market,9,2019
+7,Anchor Group,Technology,Mid-Market,2,2020
+8,Prime Corp,Energy,SMB,10,2025
+9,Apex Industries,Healthcare,SMB,9,2023
+10,Vertex Systems,Hospitality,Mid-Market,3,2020
+11,Apex Solutions,Financial Services,SMB,9,2022
+12,Pioneer Systems,Energy,Enterprise,6,2020
+13,Orbit Corp,Hospitality,SMB,2,2023
+14,Global Corp,Manufacturing,Mid-Market,4,2019
+15,Prime Systems,Financial Services,Mid-Market,6,2022
+16,Meridian Industries,Hospitality,SMB,4,2020
+17,Apex Holdings,Financial Services,Enterprise,8,2024
+18,Orbit Holdings,Logistics,Mid-Market,7,2024
+19,Sterling Solutions,Retail,Enterprise,1,2024
+20,Apex Partners,Retail,Mid-Market,6,2020
+21,Pioneer Industries,Logistics,Enterprise,9,2022
+22,Cobalt Corp,Energy,SMB,4,2025
+23,Prime Corp,Public Sector,SMB,9,2019
+24,Summit Holdings,Energy,Mid-Market,4,2025
+25,Anchor Corp,Healthcare,Mid-Market,7,2022
+26,Anchor Partners,Energy,Mid-Market,5,2024
+27,Sterling Solutions,Energy,Enterprise,9,2021
+28,Global Systems,Public Sector,Enterprise,4,2021
+29,Global Systems,Energy,Mid-Market,1,2025
+30,Summit Corp,Public Sector,Enterprise,9,2020
+31,Crest Corp,Financial Services,Mid-Market,2,2023
+32,Crest Systems,Manufacturing,SMB,4,2022
+33,Crest Systems,Education,SMB,10,2020
+34,Nova Group,Logistics,Enterprise,6,2024
+35,Pioneer Group,Retail,Enterprise,5,2023
+36,Prime Corp,Public Sector,Mid-Market,10,2021
+37,Anchor Group,Retail,SMB,3,2021
+38,Summit Holdings,Public Sector,SMB,5,2023
+39,Global Solutions,Public Sector,Mid-Market,9,2024
+40,Anchor Industries,Technology,Enterprise,2,2019
+41,Summit Group,Technology,SMB,9,2024
+42,Nova Solutions,Technology,Mid-Market,6,2021
+43,Prime Solutions,Logistics,SMB,1,2019
+44,Orbit Partners,Healthcare,SMB,1,2021
+45,Horizon Holdings,Public Sector,SMB,3,2023
+46,Prime Corp,Healthcare,Mid-Market,1,2025
+47,Crest Systems,Healthcare,Mid-Market,6,2019
+48,Orbit Partners,Manufacturing,SMB,5,2020
+49,Sterling Corp,Education,SMB,4,2025
+50,Crest Solutions,Healthcare,SMB,7,2020
+51,Apex Partners,Healthcare,SMB,3,2019
+52,Horizon Group,Logistics,SMB,3,2025
+53,Vertex Industries,Retail,Mid-Market,4,2019
+54,Nova Industries,Energy,Mid-Market,8,2025
+55,Nova Corp,Financial Services,Mid-Market,4,2021
+56,Apex Group,Education,SMB,2,2022
+57,Orbit Corp,Retail,SMB,9,2021
+58,Crest Group,Manufacturing,Enterprise,3,2022
+59,Horizon Partners,Education,Mid-Market,6,2023
+60,Atlas Systems,Financial Services,Mid-Market,2,2024
+61,Global Systems,Public Sector,SMB,7,2024
+62,Orbit Holdings,Retail,SMB,4,2021
+63,Orbit Solutions,Retail,SMB,10,2021
+64,Vertex Solutions,Logistics,Mid-Market,9,2024
+65,Meridian Industries,Financial Services,Mid-Market,5,2022
+66,Crest Systems,Technology,Mid-Market,3,2025
+67,Vertex Group,Financial Services,Mid-Market,1,2023
+68,Sterling Group,Energy,Mid-Market,10,2024
+69,Meridian Holdings,Healthcare,SMB,4,2021
+70,Sterling Solutions,Hospitality,Mid-Market,9,2025
+71,Sterling Group,Financial Services,SMB,4,2020
+72,Global Industries,Energy,SMB,1,2025
+73,Pioneer Holdings,Hospitality,Enterprise,2,2024
+74,Pioneer Holdings,Financial Services,Enterprise,7,2024
+75,Anchor Partners,Retail,SMB,1,2020
+76,Apex Solutions,Public Sector,Mid-Market,3,2023
+77,Anchor Partners,Retail,Mid-Market,4,2025
+78,Sterling Systems,Public Sector,SMB,8,2025
+79,Crest Partners,Public Sector,Mid-Market,8,2023
+80,Anchor Industries,Energy,Mid-Market,8,2025
+81,Cobalt Solutions,Technology,SMB,4,2023
+82,Sterling Industries,Technology,Mid-Market,8,2024
+83,Nova Group,Education,Mid-Market,5,2023
+84,Summit Industries,Financial Services,Mid-Market,2,2020
+85,Prime Holdings,Logistics,Mid-Market,4,2022
+86,Global Industries,Logistics,Mid-Market,7,2025
+87,Horizon Corp,Hospitality,Mid-Market,10,2019
+88,Vertex Partners,Logistics,SMB,6,2025
+89,Meridian Solutions,Public Sector,SMB,7,2020
+90,Nova Group,Logistics,Mid-Market,8,2022
+91,Sterling Solutions,Logistics,SMB,6,2025
+92,Anchor Industries,Hospitality,Mid-Market,8,2022
+93,Crest Solutions,Manufacturing,Enterprise,10,2022
+94,Cobalt Holdings,Healthcare,Enterprise,3,2022
+95,Nova Holdings,Education,Mid-Market,6,2022
+96,Apex Partners,Logistics,Mid-Market,5,2019
+97,Global Solutions,Public Sector,Enterprise,8,2021
+98,Sterling Corp,Manufacturing,SMB,4,2020
+99,Cobalt Corp,Hospitality,Enterprise,4,2020
+100,Sterling Corp,Hospitality,SMB,8,2022
+101,Apex Group,Healthcare,SMB,5,2024
+102,Apex Partners,Healthcare,SMB,2,2019
+103,Global Group,Hospitality,SMB,10,2022
+104,Horizon Industries,Retail,SMB,7,2025
+105,Prime Solutions,Technology,SMB,4,2023
+106,Apex Systems,Manufacturing,Mid-Market,2,2022
+107,Prime Systems,Education,Enterprise,6,2022
+108,Prime Holdings,Education,SMB,8,2025
+109,Horizon Industries,Logistics,Enterprise,8,2023
+110,Crest Partners,Public Sector,SMB,5,2022
+111,Cobalt Solutions,Hospitality,Mid-Market,7,2025
+112,Cobalt Corp,Technology,SMB,4,2020
+113,Crest Systems,Logistics,Mid-Market,8,2022
+114,Summit Holdings,Financial Services,Mid-Market,6,2021
+115,Vertex Systems,Technology,SMB,6,2023
+116,Prime Industries,Logistics,Mid-Market,4,2025
+117,Horizon Holdings,Energy,Mid-Market,4,2019
+118,Vertex Industries,Logistics,SMB,2,2021
+119,Orbit Holdings,Public Sector,Mid-Market,10,2022
+120,Orbit Group,Energy,Mid-Market,9,2021
+121,Prime Solutions,Financial Services,Mid-Market,4,2024
+122,Apex Solutions,Healthcare,Enterprise,9,2024
+123,Vertex Solutions,Hospitality,SMB,8,2023
+124,Vertex Corp,Financial Services,Mid-Market,10,2021
+125,Vertex Corp,Public Sector,Enterprise,3,2019
+126,Meridian Group,Healthcare,SMB,1,2025
+127,Prime Partners,Manufacturing,SMB,8,2022
+128,Pioneer Group,Healthcare,SMB,8,2021
+129,Prime Partners,Retail,Mid-Market,8,2019
+130,Sterling Solutions,Manufacturing,Enterprise,10,2025
+131,Vertex Corp,Financial Services,Enterprise,10,2025
+132,Crest Systems,Hospitality,Mid-Market,7,2023
+133,Pioneer Holdings,Technology,SMB,7,2022
+134,Crest Systems,Manufacturing,SMB,5,2024
+135,Apex Industries,Financial Services,Mid-Market,2,2019
+136,Nova Industries,Public Sector,Enterprise,3,2019
+137,Pioneer Solutions,Hospitality,Mid-Market,7,2019
+138,Vertex Solutions,Technology,SMB,4,2022
+139,Sterling Industries,Technology,SMB,2,2024
+140,Sterling Partners,Financial Services,Mid-Market,10,2023
+141,Sterling Industries,Technology,SMB,4,2019
+142,Summit Partners,Technology,SMB,1,2025
+143,Anchor Group,Energy,Enterprise,10,2024
+144,Horizon Holdings,Technology,Mid-Market,5,2022
+145,Prime Systems,Manufacturing,SMB,8,2024
+146,Crest Group,Manufacturing,Enterprise,6,2024
+147,Crest Corp,Technology,SMB,10,2025
+148,Pioneer Systems,Energy,SMB,3,2020
+149,Atlas Solutions,Energy,SMB,10,2022
+150,Atlas Group,Education,SMB,6,2025
+151,Orbit Holdings,Energy,Mid-Market,3,2022
+152,Global Holdings,Retail,Mid-Market,9,2021
+153,Apex Holdings,Public Sector,SMB,2,2019
+154,Pioneer Holdings,Manufacturing,Enterprise,9,2021
+155,Apex Holdings,Energy,SMB,10,2020
+156,Meridian Industries,Technology,Mid-Market,5,2024
+157,Prime Corp,Hospitality,SMB,8,2024
+158,Vertex Systems,Manufacturing,SMB,3,2019
+159,Cobalt Corp,Energy,SMB,4,2024
+160,Pioneer Solutions,Technology,Mid-Market,3,2021
+161,Cobalt Holdings,Energy,Mid-Market,7,2023
+162,Atlas Industries,Hospitality,Mid-Market,3,2020
+163,Vertex Partners,Logistics,Mid-Market,2,2025
+164,Vertex Partners,Manufacturing,Mid-Market,9,2021
+165,Crest Solutions,Energy,SMB,10,2022
+166,Pioneer Group,Education,SMB,9,2023
+167,Pioneer Group,Financial Services,SMB,7,2020
+168,Atlas Industries,Logistics,Enterprise,10,2024
+169,Horizon Partners,Logistics,Mid-Market,8,2024
+170,Pioneer Corp,Healthcare,Mid-Market,3,2023
+171,Cobalt Corp,Energy,Enterprise,6,2022
+172,Horizon Industries,Logistics,SMB,1,2020
+173,Pioneer Partners,Technology,Mid-Market,2,2024
+174,Sterling Corp,Education,SMB,7,2025
+175,Atlas Group,Energy,SMB,9,2019
+176,Prime Industries,Technology,SMB,10,2024
+177,Atlas Corp,Retail,Mid-Market,2,2024
+178,Anchor Corp,Manufacturing,Mid-Market,5,2019
+179,Orbit Group,Logistics,Enterprise,5,2023
+180,Crest Solutions,Healthcare,Enterprise,7,2019
+181,Cobalt Holdings,Hospitality,SMB,10,2022
+182,Summit Industries,Energy,SMB,10,2022
+183,Sterling Corp,Energy,SMB,5,2024
+184,Summit Corp,Energy,SMB,9,2023
+185,Sterling Holdings,Technology,Mid-Market,5,2021
+186,Atlas Partners,Energy,Enterprise,4,2022
+187,Orbit Systems,Technology,SMB,10,2021
+188,Cobalt Solutions,Logistics,Mid-Market,1,2023
+189,Anchor Systems,Energy,SMB,1,2021
+190,Crest Partners,Education,Mid-Market,4,2020
+191,Vertex Solutions,Healthcare,SMB,10,2024
+192,Vertex Partners,Energy,Enterprise,1,2021
+193,Prime Group,Education,SMB,3,2020
+194,Summit Partners,Public Sector,SMB,4,2021
+195,Meridian Group,Healthcare,Mid-Market,9,2025
+196,Apex Group,Education,SMB,8,2022
+197,Summit Partners,Financial Services,SMB,2,2024
+198,Cobalt Partners,Public Sector,Mid-Market,7,2025
+199,Global Group,Public Sector,Enterprise,7,2021
+200,Crest Holdings,Education,Enterprise,5,2020
+201,Global Systems,Public Sector,Mid-Market,8,2023
+202,Sterling Corp,Energy,SMB,4,2021
+203,Prime Industries,Manufacturing,SMB,7,2021
+204,Prime Corp,Financial Services,SMB,8,2020
+205,Pioneer Group,Public Sector,Mid-Market,7,2024
+206,Anchor Holdings,Retail,SMB,3,2023
+207,Vertex Corp,Education,Mid-Market,7,2022
+208,Cobalt Group,Retail,SMB,4,2021
+209,Anchor Solutions,Education,Enterprise,9,2021
+210,Prime Partners,Energy,Enterprise,4,2020
+211,Global Corp,Education,Mid-Market,10,2020
+212,Nova Corp,Public Sector,Mid-Market,10,2020
+213,Orbit Partners,Healthcare,SMB,4,2023
+214,Vertex Partners,Healthcare,SMB,1,2023
+215,Apex Industries,Retail,SMB,5,2019
+216,Global Group,Financial Services,SMB,3,2019
+217,Vertex Corp,Healthcare,SMB,3,2023
+218,Horizon Corp,Energy,Mid-Market,2,2021
+219,Crest Corp,Energy,Mid-Market,9,2023
+220,Horizon Partners,Public Sector,Mid-Market,1,2024
+221,Global Holdings,Logistics,Mid-Market,1,2019
+222,Horizon Holdings,Retail,SMB,8,2021
+223,Summit Corp,Healthcare,Mid-Market,10,2024
+224,Meridian Solutions,Education,Mid-Market,10,2023
+225,Vertex Holdings,Public Sector,SMB,9,2019
+226,Cobalt Solutions,Public Sector,SMB,2,2020
+227,Pioneer Industries,Logistics,Mid-Market,7,2022
+228,Atlas Solutions,Retail,Mid-Market,7,2021
+229,Orbit Industries,Energy,Enterprise,5,2025
+230,Prime Holdings,Retail,SMB,2,2021
+231,Meridian Corp,Hospitality,SMB,3,2023
+232,Sterling Corp,Logistics,Mid-Market,6,2024
+233,Cobalt Solutions,Manufacturing,SMB,7,2023
+234,Orbit Corp,Hospitality,Mid-Market,5,2020
+235,Nova Partners,Retail,Mid-Market,8,2023
+236,Prime Partners,Technology,SMB,6,2025
+237,Cobalt Systems,Hospitality,SMB,7,2024
+238,Global Systems,Technology,Enterprise,9,2021
+239,Anchor Group,Education,Enterprise,5,2025
+240,Crest Solutions,Logistics,Enterprise,3,2024
+241,Prime Solutions,Public Sector,Mid-Market,1,2022
+242,Orbit Industries,Education,Mid-Market,8,2021
+243,Crest Corp,Manufacturing,Enterprise,10,2025
+244,Global Solutions,Retail,Mid-Market,10,2024
+245,Pioneer Systems,Energy,Mid-Market,7,2020
+246,Prime Group,Logistics,Enterprise,9,2024
+247,Pioneer Systems,Technology,Enterprise,10,2022
+248,Global Corp,Financial Services,Mid-Market,10,2020
+249,Apex Group,Technology,Mid-Market,3,2019
+250,Horizon Holdings,Healthcare,Enterprise,8,2023
+251,Meridian Systems,Education,Enterprise,4,2025
+252,Atlas Corp,Energy,SMB,1,2025
+253,Crest Holdings,Hospitality,Mid-Market,6,2024
+254,Vertex Corp,Logistics,Enterprise,7,2021
+255,Apex Systems,Energy,SMB,3,2021
+256,Atlas Partners,Retail,Mid-Market,2,2023
+257,Meridian Corp,Logistics,SMB,7,2024
+258,Nova Group,Healthcare,Enterprise,6,2024
+259,Meridian Systems,Financial Services,SMB,2,2021
+260,Horizon Partners,Healthcare,Mid-Market,6,2020
+261,Nova Industries,Hospitality,Enterprise,5,2025
+262,Summit Partners,Energy,Mid-Market,2,2023
+263,Pioneer Solutions,Hospitality,SMB,10,2023
+264,Cobalt Solutions,Education,Enterprise,6,2019
+265,Pioneer Solutions,Technology,SMB,8,2023
+266,Orbit Systems,Retail,Mid-Market,1,2022
+267,Global Group,Technology,Enterprise,1,2025
+268,Crest Systems,Public Sector,Mid-Market,2,2023
+269,Apex Solutions,Manufacturing,Mid-Market,9,2025
+270,Sterling Industries,Education,SMB,10,2023
+271,Global Holdings,Retail,SMB,3,2025
+272,Horizon Corp,Public Sector,SMB,6,2019
+273,Horizon Holdings,Energy,Mid-Market,4,2023
+274,Orbit Group,Technology,Mid-Market,3,2025
+275,Sterling Systems,Manufacturing,SMB,6,2024
+276,Prime Group,Retail,SMB,6,2022
+277,Vertex Solutions,Hospitality,SMB,5,2021
+278,Crest Solutions,Healthcare,SMB,2,2021
+279,Summit Systems,Retail,Mid-Market,7,2022
+280,Cobalt Industries,Public Sector,Enterprise,6,2024
+281,Meridian Group,Manufacturing,Mid-Market,7,2020
+282,Orbit Partners,Energy,Enterprise,4,2020
+283,Prime Group,Retail,Mid-Market,3,2023
+284,Global Solutions,Education,SMB,9,2023
+285,Crest Holdings,Healthcare,Enterprise,3,2025
+286,Apex Industries,Energy,Enterprise,10,2021
+287,Pioneer Systems,Technology,SMB,4,2025
+288,Nova Systems,Financial Services,Mid-Market,8,2025
+289,Anchor Partners,Financial Services,Mid-Market,8,2023
+290,Pioneer Partners,Technology,SMB,8,2023
+291,Atlas Industries,Financial Services,SMB,9,2020
+292,Global Solutions,Energy,SMB,5,2023
+293,Horizon Partners,Public Sector,SMB,2,2021
+294,Apex Industries,Technology,Mid-Market,2,2023
+295,Cobalt Holdings,Retail,SMB,3,2020
+296,Anchor Group,Manufacturing,Mid-Market,8,2022
+297,Orbit Industries,Logistics,SMB,9,2021
+298,Global Group,Retail,SMB,4,2024
+299,Apex Industries,Healthcare,Enterprise,6,2025
+300,Horizon Partners,Healthcare,SMB,8,2022

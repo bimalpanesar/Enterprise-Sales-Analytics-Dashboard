@@ -1,0 +1,13 @@
+product_key,product_name,category,subcategory,unit_list_price
+1,Cloud Platform - Core Subscription,Cloud Platform,Core Subscription,7004.72
+2,Cloud Platform - Enterprise Add-on,Cloud Platform,Enterprise Add-on,576.14
+3,Cloud Platform - Data Connector Pack,Cloud Platform,Data Connector Pack,1648.77
+4,Analytics Suite - Standard Analytics,Analytics Suite,Standard Analytics,4210.9
+5,Analytics Suite - Advanced Analytics,Analytics Suite,Advanced Analytics,12606.96
+6,Analytics Suite - AI Insights Module,Analytics Suite,AI Insights Module,8457.66
+7,Security - Identity Management,Security,Identity Management,11044.9
+8,Security - Threat Monitoring,Security,Threat Monitoring,8152.69
+9,Security - Compliance Toolkit,Security,Compliance Toolkit,2112.21
+10,Professional Services - Implementation Package,Professional Services,Implementation Package,4677.47
+11,Professional Services - Training Package,Professional Services,Training Package,4866.69
+12,Professional Services - Managed Support,Professional Services,Managed Support,1192.37

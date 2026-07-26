@@ -1,0 +1,11 @@
+region_key,continent,country,state_or_province
+1,North America,United States,West
+2,North America,United States,East
+3,North America,Canada,Ontario
+4,Europe,United Kingdom,London
+5,Europe,Germany,Bavaria
+6,Europe,France,Île-de-France
+7,Asia Pacific,India,Maharashtra
+8,Asia Pacific,India,Delhi NCR
+9,Asia Pacific,Australia,New South Wales
+10,Middle East,UAE,Dubai

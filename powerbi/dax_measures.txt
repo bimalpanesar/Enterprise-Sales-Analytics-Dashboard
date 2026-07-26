@@ -1,0 +1,101 @@
+// ============================================================================
+// Enterprise Sales BI Analytics Solution — DAX Measure Library
+// Import fact_sales + dim_* tables into Power BI, build the star-schema
+// relationships (see docs/star_schema_diagram.md), mark dim_date as a Date
+// table, then create these measures in a dedicated "_Measures" table.
+// ============================================================================
+
+// ---------------------------------------------------------------------------
+// Core measures
+// ---------------------------------------------------------------------------
+Net Revenue =
+SUM ( fact_sales[net_amount] )
+
+Gross Revenue =
+SUM ( fact_sales[gross_amount] )
+
+Total Discount =
+SUM ( fact_sales[discount_amount] )
+
+Total Cost =
+SUM ( fact_sales[cost_amount] )
+
+Gross Margin =
+[Net Revenue] - [Total Cost]
+
+Gross Margin % =
+DIVIDE ( [Gross Margin], [Net Revenue], 0 )
+
+Discount % of Gross =
+DIVIDE ( [Total Discount], [Gross Revenue], 0 )
+
+Order Count =
+DISTINCTCOUNT ( fact_sales[order_id] )
+
+Average Order Value =
+DIVIDE ( [Net Revenue], [Order Count], 0 )
+
+// ---------------------------------------------------------------------------
+// Time intelligence (requires dim_date marked as Date Table, full_date column)
+// ---------------------------------------------------------------------------
+Net Revenue PY =
+CALCULATE ( [Net Revenue], SAMEPERIODLASTYEAR ( dim_date[full_date] ) )
+
+Net Revenue YoY % =
+DIVIDE ( [Net Revenue] - [Net Revenue PY], [Net Revenue PY], 0 )
+
+Net Revenue MTD =
+TOTALMTD ( [Net Revenue], dim_date[full_date] )
+
+Net Revenue QTD =
+TOTALQTD ( [Net Revenue], dim_date[full_date] )
+
+Net Revenue YTD =
+TOTALYTD ( [Net Revenue], dim_date[full_date] )
+
+Rolling 3-Month Revenue =
+CALCULATE (
+    [Net Revenue],
+    DATESINPERIOD ( dim_date[full_date], MAX ( dim_date[full_date] ), -3, MONTH )
+)
+
+// ---------------------------------------------------------------------------
+// Ranking / rep performance
+// ---------------------------------------------------------------------------
+Rep Revenue Rank =
+RANKX ( ALL ( dim_sales_rep[rep_name] ), [Net Revenue], , DESC )
+
+Revenue Rank Within Region =
+RANKX (
+    ALLEXCEPT ( dim_customer, dim_region[region_key] ),
+    [Net Revenue], , DESC
+)
+
+// ---------------------------------------------------------------------------
+// Customer segmentation / mix
+// ---------------------------------------------------------------------------
+% of Total Revenue =
+DIVIDE ( [Net Revenue], CALCULATE ( [Net Revenue], ALL ( dim_customer ) ), 0 )
+
+Enterprise Segment Revenue =
+CALCULATE ( [Net Revenue], dim_customer[segment] = "Enterprise" )
+
+New Customers This Year =
+CALCULATE (
+    DISTINCTCOUNT ( dim_customer[customer_key] ),
+    dim_customer[signup_year] = YEAR ( MAX ( dim_date[full_date] ) )
+)
+
+// ---------------------------------------------------------------------------
+// KPI status flag for conditional formatting in report visuals
+// ---------------------------------------------------------------------------
+Revenue KPI Status =
+VAR growth = [Net Revenue YoY %]
+RETURN
+    SWITCH (
+        TRUE (),
+        ISBLANK ( growth ), "No Data",
+        growth >= 0.10, "On Track",
+        growth >= 0, "Watch",
+        "At Risk"
+    )
